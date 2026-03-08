@@ -11,6 +11,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 
 async def main():
+    """Запускает бота: инициализирует диспетчер, подключает роутеры и стартует long polling."""
     bot = Bot(token=BOT_TOKEN)
     dp = Dispatcher()
 

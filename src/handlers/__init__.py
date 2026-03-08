@@ -1,5 +1,5 @@
-from .start import router as start_router
+from .cmds import router as cmds_router
 
 __all_routers__ = [
-    start_router,
+    cmds_router,
 ]
