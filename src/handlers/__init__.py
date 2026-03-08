@@ -1,7 +1,9 @@
 from .cmds import router as cmds_router
 from .photo import router as photo_router
+from .text import router as text_router
 
 __all_routers__ = [
     cmds_router,
     photo_router,
+    text_router,
 ]
